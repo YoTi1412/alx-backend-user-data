@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """A module for authentication-related routines.
 """
+
 import bcrypt
 from uuid import uuid4
 from typing import Union
@@ -118,4 +119,3 @@ class Auth:
             hashed_password=new_password_hash,
             reset_token=None,
         )
- 
